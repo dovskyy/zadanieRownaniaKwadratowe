@@ -6,7 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner skanik = new Scanner(System.in);
-
+        
+        System.out.println("Dana jest funkcja kwadratowa. Wprowadź poniżej jej wspólczynniki: a, b oraz c.");
         System.out.println("Podaj wartość dla 'a': ");
         double a = skanik.nextDouble();
         System.out.println("Podaj wartość dla 'b': ");
